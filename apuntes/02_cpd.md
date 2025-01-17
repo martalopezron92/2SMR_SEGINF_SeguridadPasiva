@@ -124,6 +124,18 @@ Ejemplos de CPDs en la nube:
 *   Amazon Web Services
 *   Google Cloud Platform
 
+Centro de respaldo
+-------------------
+A pesar de tanta protección, debemos pensar en la posibilidad de que ocurra una catástrofe en nuestro CPD y quede inservible (inundación, terremoto, sabotaje). La continuidad de la empresa no puede depender de un punto único de fallo; si disponemos de presupuesto suficiente, debemos instalar un segundo CPD.
+
+Este segundo CPD, también llamado centro de respaldo (CR), ofrece los mismo servicios del centro principal (CP). Por supuesto, debe estar físicamente alejado del CP;cuantos más kilómetro entre ambos, mejor.
+
+En condiciones normales, el CR está parado (stand-by) esperando que, en cualquier momento, la empresa pueda necesitar detener el CP y activar el CR como nuevo CP. Los usuarios no deben notar cambios. Para ellos la información del CP también está en el CR.
+
+Como hemos señalado con anterioridad en el plan de recuperación ante desastres, puede que las circunstancias que nos lleven a conmutar el CR al CP sean muy urgentes y no haya tiempo para descubrir cómo se hace: todo el procedimiento de conmutación debe estar documentado con el máximo detalle, así como la posterior recuperación del CP. Incluso conviene probarlo una vez al año para confirmar que los pasos están bien descritos y el personal está capacitado para ejecutar bien.
+
+Los equipos del centro principal y el centro de respaldo constituyen los centros de producción de la empresa: están en funcionamiento para dar servicio a los empleados, clientes y proveedores de la misma. Pero no son las únicas salas con servidores y equipamiento de res. Primero se prueba en un entorno controlado, llamado maqueta de preproducción, donde el personal de la empresa aplica el cambio.
+
 Bibliografía[](#bibliografía)
 -----------------------------
 
