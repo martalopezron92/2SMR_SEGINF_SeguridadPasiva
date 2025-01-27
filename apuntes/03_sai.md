@@ -88,9 +88,6 @@ Antes de nada… Unidades de medida eléctricas[](#antes-de-nada-unidades-de-med
 
 > P = V x I = 230 voltios x 20 amperios = 4600 vatios = 4,6 KW.
 
-*   I ➡ INTENSIDAD (en Amperios) ➡ NÚMERO DE CORREDORES ➡ Lo que nos mata
-*   U ➡ TENSIÓN / DIFERENCIA DE POTENCIAL (en Voltios) ➡ MOTIVACIÓN DE LOS CORREDORES / PREMIO ➡ Lo peligroso
-
 ### Tipos de potencia eléctrica[](#tipos-de-potencia-eléctrica)
 
 Lo primero que debemos tener en cuenta es que la potencia que suelen marcas los SAI es diferente de la potencia que consume un ordenador.
@@ -114,7 +111,7 @@ Es toda aquella energía que realiza un trabajo útil. Por ejemplo, la consumid
 
 Su fórmula es:
 
-\\\[P = U \* I \* \\cos{\\phi}\\\]
+P = U * I * cos(φ)
 
 Donde:
 
@@ -129,7 +126,7 @@ Hablamos de una energía que realmente no realiza un trabajo útil. Este tipo 
 
 Su fórmula es: 
 
-\\\[Q = U \* I \* \\sin{\\phi}\\\]
+Q = U * I * sin(φ)
 
 Donde:
 
@@ -144,7 +141,7 @@ Suma vectorial de las potencias activa y reactiva.
 
 La fórmula es: 
 
-\\\[S = U \* I\\\]
+S = U * I
 
 Donde:
 
@@ -158,7 +155,7 @@ Es la relación entre la energía suministrada (potencia aparente) y la energí
 
 Se calcula así: 
 
-\\\[FP = \\frac{P}{S}\\\]
+FP = P/S
 
 Donde:
 
@@ -171,7 +168,7 @@ Calcular autonomía de un SAI[](#calcular-autonomía-de-un-sai)
 
 Para calcular la autonomía de un sai solo se necesita la siguiente fórmula:
 
-\\\[T = \\frac{N \* U \* Ah \* Ef}{S} \* 60\\\]
+T = (N * U * Ah * Ef * 60) / S 
 
 Donde:
 
